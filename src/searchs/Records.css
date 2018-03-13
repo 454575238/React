@@ -1,0 +1,50 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-08 14:03:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-09 11:04:15
+*/
+ .history .history-item {
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 0 23px;
+}
+.history {
+    background-color: #fafafa;
+    color: #666666;
+    position:relative;
+}
+.history .de{
+
+display: inline-block;
+float: right;
+width: 14%;
+width: 40px;
+text-align:center;
+
+}
+.history .clickBar{
+    width: 85%;
+    display:inline-block;
+
+}
+.history :active{
+    background:#f0f0f0;
+}
+.history span{
+     background: url(/imgs/icon.png) no-repeat -71.5px -4px;
+    background-size: 250px 250px;
+        display: inline-block;
+    height: 10px;
+    width: 12px;
+  margin-top: 10px
+}
+.history .delcon {
+    float: right;
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    width: 14%;
+}

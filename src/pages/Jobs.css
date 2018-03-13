@@ -1,0 +1,228 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-08 19:17:00
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-08 20:44:03
+*/
+
+.fix_btn_group {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 44px;
+    width: 92%;
+    padding: 12px 4%;
+    line-height: 44px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.fix_btn_group .deliver {
+    width: 100%;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+.header .left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+.header .right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+.header .iconfont{    font-size: 2rem;}
+
+
+.postitle {
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    border-bottom: 1px solid #e8e8e8;}
+
+ .postitle .title {
+    margin: 0;
+    color: #333;
+    font-size: 1.8rem;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    font-weight: bold;
+}
+.postitle .text {
+    display: block;
+    color: #888;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+
+ .postitle .collicon {
+    float: right;
+    width: 39px;
+    position: relative;
+    text-align: center;
+    padding: 6px 10px 0 10px;
+    height: 43px;
+}
+
+.postitle .notcoll {
+    background: url(/imgs/icon.png) no-repeat -170px -41px;
+    background-size: 250px 250px;
+}
+ .postitle .icon {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;}
+
+.detail {
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px;
+}
+
+.detail .items{
+    width: 345px;
+    height: 62px;
+}
+.detail .itemss {
+    float: left;
+    color: #333;
+    font-size: 1.4rem;
+    position: relative;
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 11px;
+}
+
+ .detail .temptation {
+    color: #888;
+    word-break: break-all;
+    font-size: 1.3rem;
+}
+.detail .salary .icon {
+    background: url(/imgs/icon.png) no-repeat -66px -48px;
+    background-size: 250px 250px;
+}
+.detail .icon {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+}
+.detail .workaddress{
+    text-align:center;
+}
+
+.detail .workaddress .icon {
+    background: url(/imgs/icon.png) no-repeat -79px -49px;
+    background-size: 250px 250px;}
+.detail .jobnature {
+    text-align:right;
+}
+ .detail .jobnature .icon {
+    background: url(/imgs/icon.png) no-repeat -93px -49px;
+    background-size: 250px 250px;
+}
+
+.detail .workyear .icon {
+    background: url(/imgs/icon.png) no-repeat -110.5px -49.5px;
+    background-size: 250px 250px;
+}
+ .detail .education .icon {
+    background: url(/imgs/icon.png) no-repeat -127.5px -49px;
+    background-size: 250px 250px;
+}
+
+
+ .company {
+    border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px;
+    height:60px;
+}
+
+ .company .logo {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+ .company .dleft .title {
+    color: #00b38a;
+    font-size: 1.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+ .company .dleft .info {
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.company .desc {
+    margin-left: 70px;
+    min-height: 10px;
+}
+ .company .dleft {
+    float: left;
+    min-height: 10px;
+    min-width: 10px;
+    max-width: 80%;
+    height:60px;
+}
+
+.company .dright {
+    float: right;
+    display: inline-block;
+    width: 23px;
+    height: 29px;
+    background: url(/imgs/icon.png) no-repeat -222.5px -3.5px;
+    background-size: 250px 250px;
+    margin-top: 10px;
+}
+
+ .positiondesc .header {
+    background-color: #00b38a;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #00b38a;
+    font-size: 1.4rem;
+    background-color: #d2f9f0;
+}
+
+ .positiondesc .content {
+    word-break: break-all;
+    padding: 15px;
+    color: #555;
+    font-size: 1.2rem;
+    line-height: 22px;
+}
+
+ .eval-title {
+    background-color: #00b38a;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #00b38a;
+    font-size: 1.4rem;
+    background-color: #d2f9f0;
+}
+.list-bottom{
+    margin-bottom:100px;
+}

@@ -1,0 +1,29 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-05 10:57:25
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-05 11:19:52
+*/
+.info{
+    width: 100%;
+    box-sizing: border-box;
+    height:4rem;
+
+    border-bottom:  1px solid #e8e8e8;
+    padding:1rem 1rem ;
+    font-size: 1.4rem;
+    position:relative;
+}
+.info span{
+     right:1em;
+     top:0.7rem;
+     display:inline-block;
+    width: 80px;
+    height: 30px;
+  position:absolute;
+    line-height: 30px;
+    border-radius: 40% 40% 40% 40%;
+    text-align: center;
+    background:#e8e8e8;
+        color: #00b38a
+}

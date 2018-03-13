@@ -1,0 +1,99 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-05 16:35:48
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-08 15:54:38
+*/
+
+.container{
+    margin:10px
+}
+#content .nologin {
+    height: 111px;
+}
+
+#content .center {
+    text-align: center;
+    width: 125px;
+    margin: 0 auto;
+    position:relative;
+}
+#content .nologin .loginbut {
+    font-size: 1.4rem;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #1fc8a1;
+    position: relative;
+    top: 33px;
+}
+
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+
+#content .buttons .deliver {
+    float: left;
+}
+
+#content .buttons .button {
+    display: block;
+    width: 48%;
+    height: 86px;
+    line-height: 86px;
+    background-color: #1fc8a1;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    position: relative;
+}
+
+#content .buttons .interview {
+    float: right;
+
+}
+
+#content .buttons .collect {
+    float: right;
+}
+
+#content .buttons .invitation {
+    float: left;
+}
+.center img{
+    width: 71px;height: 70px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-left: 23px;
+}
+
+#content .logout {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #1fc8a1;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-bottom:10px;
+    margin-top:10px;
+
+}
+.username{
+    text-align:center;
+   position:absolute;
+   bottom:0px;
+    width: 100%;
+    height:30px;
+
+}

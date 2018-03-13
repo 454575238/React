@@ -1,0 +1,50 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-06 19:49:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-07 09:21:08
+*/
+.cities-header {
+    border-bottom: 1px solid #e8e8e8;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    color: #888;
+}
+.cities-item {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    min-width: 100px;
+}
+tr {
+
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.cities-list {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+table {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.Search .header{
+ position:fixed;
+ top:0;
+ left: 0;
+ width:100%;
+}

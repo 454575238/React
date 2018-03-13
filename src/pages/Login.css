@@ -1,0 +1,124 @@
+/*
+* @Author: Marte
+* @Date:   2018-02-05 18:33:00
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-02-06 08:51:36
+*/
+*{padding:0;margin:0;}
+
+.Container{
+
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    max-width: 750px;
+    padding: 3rem;
+    margin: 0 auto;
+}
+
+.form_header {
+    position: relative;
+    line-height: 1.69rem;
+}
+.title {
+    color: #333;
+    font-size: 1.81rem;
+    font-weight: 400;
+    margin: .63rem 0 1.07rem;
+}
+.form_header .brother_link {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.4rem;
+    color: #00b38a;
+}
+
+.form_container .form_footer a {
+    display: block;
+    position: absolute;
+    bottom: 1.83rem;
+    color: #00b38a;
+    font-size: 1.4rem;
+
+}
+
+.input_label .submit_btn {
+    margin-top:5rem;
+    width: 100%;
+    height: 3.77rem;
+    border-radius: 3px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 1.45rem;
+    border: 0;
+}
+input{
+    outline: none;
+    border-radius: 0;
+
+}
+
+
+ input::-webkit-input-placeholder {
+
+        color: rgb(204,204,204);
+
+
+    }
+.input_text {
+    position:relative;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 1.57rem 0;
+    font-size: 1.45rem;
+    color: #333;
+    border: 0;
+        border-bottom: 1px solid #E8E9EB;
+}
+
+.vcode_input {
+     margin-top:-0.9rem;
+    padding-right: 2.13rem;
+    position:relative;
+}
+.vcode_link {
+   position:relative;
+    right: -220px;
+    bottom: 40px;
+    z-index: 2;
+    width: initial;
+    height: 2.09rem;
+    padding: 0;
+    font-size: 1.37rem;
+    color: #666;
+    border: 0;
+    background: 0 0;
+}
+.input_label .pcode_link {
+  position:relative;
+  font-size:1.4rem;
+    right: -247px;
+    bottom: 40px;
+    z-index: 2;
+    width: 3.61rem;
+    height: 3.09rem;
+    text-indent: -10rem;
+    overflow: hidden;}
+
+
+    .phone_input {
+            padding-left: 5.27rem;
+    }
+    .area_code{
+        z-index:99;
+      position:absolute;
+      top:9.5rem;
+      left:3rem;
+       font-size:1.8rem;
+    }
+.phone_wrapper{
+    margin-top:3rem;
+}
